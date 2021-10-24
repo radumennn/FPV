@@ -1,7 +1,7 @@
 *,
 *::after,
 *::before {
-  padding: 0;
+  padding: 4p;
   margin: 0;
   box-sizing: border-box;
 }
@@ -12,6 +12,7 @@ html {
 
 body {
   font-size: 18px;
+  
   line-height: 36px;
   min-height: 100%;
   background-image: url("https://images.unsplash.com/photo-1461409971633-aa0e46732112?crop=entropy&fit=crop&fm=jpg&h=1000&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1925");
@@ -21,18 +22,20 @@ body {
 }
 
 .item {
-  width: 450px;
-  height: 450px;
+  width: 500px;
+  height: 500px;
   overflow: hidden;
   border-radius: 50%;
+  
   text-align: center;
-  color: #fff;
+  color: rgb(238, 238, 238);
+  flex-wrap: wrap;
 }
 
 .item1 {
-  background-color: rgba(0, 0, 255, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
-.item h1 {
-  padding: 30% 15px 10% 15px;
+.item h1{
+  padding: 35% 15px 10% 15px;
 }

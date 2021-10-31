@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 
 *,
 *::after,
@@ -25,16 +25,16 @@ body {
 }
 
 .item {
-  width: 320px;
-  height: 320px;
+  width: 300px;
+  height: 300px;
   overflow: hidden;
-  border-radius: 100% 50% 30% 15%;
+  border-radius: 10% 50% 20% 15%;
   text-align: center;
   color: #fff;
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
 
 .item1 {
@@ -45,6 +45,18 @@ body {
   padding: 30% 15px 25px 15px;
 }
 
-.item p{
+.item p {
   padding: 0 20px;
+}
+
+video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  background-size: cover;
 }

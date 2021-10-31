@@ -50,7 +50,7 @@ body {
 }
 
 video {
-  position: fixed;
+  position:fixed ;
   right: 0;
   bottom: 0;
   min-width: 100%;
@@ -60,3 +60,15 @@ video {
   z-index: -100;
   background-size: cover;
 }
+
+
+
+
+
+
+
+
+
+
+
+

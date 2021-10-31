@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 *,
 *::after,
 *::before {
@@ -11,22 +13,28 @@ html {
 }
 
 body {
+  font-family: "Lobster", cursive;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 28px;
   min-height: 100vh;
   background-image: url("https://images.unsplash.com/photo-1461409971633-aa0e46732112?crop=entropy&fit=crop&fm=jpg&h=1000&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1925");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 0;
+  position: relative;
 }
 
 .item {
-  width: 600px;
-  height: 600px;
+  width: 320px;
+  height: 320px;
   overflow: hidden;
-  border-radius: 50%;
+  border-radius: 100% 50% 30% 15%;
   text-align: center;
   color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
 }
 
 .item1 {
@@ -34,5 +42,9 @@ body {
 }
 
 .item h1 {
-  padding: 30% 15px 10% 15px;
+  padding: 30% 15px 25px 15px;
+}
+
+.item p{
+  padding: 0 20px;
 }
